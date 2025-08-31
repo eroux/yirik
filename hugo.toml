@@ -9,7 +9,7 @@ theme = ["PaperMod"]
   defaultTheme = "light"
   disableThemeToggle = true
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = false
@@ -28,6 +28,10 @@ theme = ["PaperMod"]
 [params.label]
   icon = "logo.png"
   iconHeight = 120
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-3CF2313L0H'
 
 # Favicon configuration
 [params.assets]
