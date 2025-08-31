@@ -27,7 +27,7 @@ theme = ["PaperMod"]
 # Logo configuration
 [params.label]
   icon = "logo.png"
-  iconHeight = 100
+  iconHeight = 120
 
 # Favicon configuration
 [params.assets]
