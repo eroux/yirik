@@ -24,6 +24,18 @@ theme = ["PaperMod"]
   showtoc = true
   tocopen = true
 
+# Logo configuration
+[params.label]
+  icon = "logo.png"
+  iconHeight = 40
+
+# Favicon configuration
+[params.assets]
+  favicon = "favicon.ico"
+  favicon16x16 = "favicon-16x16.png"
+  favicon32x32 = "favicon-32x32.png"
+  apple_touch_icon = "apple-touch-icon.png"
+
 [params.homeInfoParams]
   Title = 'ཡིག་རིགས་དང་ཡིག་གཟུགས། Tibetan Scriptology'
   Content = 'Resources on the Tibetan script: paleography, fonts, technology'
