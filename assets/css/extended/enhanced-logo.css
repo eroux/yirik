@@ -1,0 +1,87 @@
+/* Enhanced logo styling */
+.logo-enhanced {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.logo-enhanced .logo-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-enhanced .logo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.logo-enhanced .logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-enhanced .logo-icon img {
+    height: 120px !important;
+    width: auto;
+}
+
+.logo-enhanced .logo-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    max-width: 600px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+/* Adjust navigation layout for centered logo */
+.nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Move logo switches to the right side or below */
+.logo-enhanced .logo-switches {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .logo-enhanced .logo-text {
+        font-size: 1.2rem;
+    }
+    
+    .logo-enhanced .logo-icon img {
+        height: 80px !important;
+    }
+    
+    .logo-enhanced .logo-switches {
+        position: static;
+        margin-top: 1rem;
+    }
+    
+    .nav {
+        flex-direction: column;
+    }
+}
+
+/* Ensure menu appears below the logo */
+#menu {
+    margin-top: 1rem;
+}
