@@ -27,7 +27,7 @@ theme = ["PaperMod"]
 # Logo configuration
 [params.label]
   icon = "logo.png"
-  iconHeight = 40
+  iconHeight = 100
 
 # Favicon configuration
 [params.assets]
@@ -37,5 +37,5 @@ theme = ["PaperMod"]
   apple_touch_icon = "apple-touch-icon.png"
 
 [params.homeInfoParams]
-  Title = 'ཡིག་རིགས་དང་ཡིག་གཟུགས། Tibetan Scriptology'
-  Content = 'Resources on the Tibetan script: paleography, fonts, technology'
+  Title = 'Resources on the Tibetan script: paleography, fonts, technology'
+  Content = ''
